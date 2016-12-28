@@ -1,0 +1,30 @@
+OneshotMenuIntent get {Restriction} {Meal}
+OneshotMenuIntent get {Meal} for {Date}
+OneshotMenuIntent get {Restriction} {Meal} on {Date}
+OneshotMenuIntent get {Restriction} {Meal} for {Date}
+OneshotMenuIntent get {Restriction} {Meal} {Date}
+OneshotMenuIntent {Restriction} menu
+OneshotMenuIntent {Restriction} {Meal} menu
+OneshotMenuIntent {Restriction} menu for {Date}
+OneshotMenuIntent {Restriction} {Meal} menu for {Date}
+OneshotMenuIntent {Restriction} {Meal} menu on {Date}
+OneshotMenuIntent {Restriction} {Meal} {Date}
+OneshotMenuIntent {Date} {Restriction} {Meal}
+OneshotMenuIntent {Date} {Meal}
+OneshotMenuIntent what's for {Meal}
+OneshotMenuIntent what's for {Restriction} {Meal}
+OneshotMenuIntent what's for {Restriction} {Meal} {Date}
+OneshotMenuIntent what's for {Restriction} {Meal} on {Date}
+
+SupportedMenusIntent which menus
+SupportedMenusIntent which menus do you know
+
+OneshotComplimentIntent {Compliment}
+
+OneshotRestrictionIntent I'm {Restriction}
+OneshotRestrictionIntent {Restriction} only
+OneshotRestrictionIntent {Restriction} menu only
+
+OneshotRemoveRestrictionIntent I'm not {Restriction}
+OneshotRemoveRestrictionIntent remove {Restriction}
+

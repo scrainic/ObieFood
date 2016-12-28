@@ -1,0 +1,76 @@
+{
+  "intents": [
+    {
+      "intent": "OneshotMenuIntent",
+      "slots": [
+        {
+          "name": "Meal",
+          "type": "LIST_OF_MEALS"
+        },
+        {
+          "name": "Restriction",
+          "type": "LIST_OF_RESTRICTIONS"
+        },
+        {
+          "name": "Date",
+          "type": "AMAZON.DATE"
+        }
+      ]
+    },
+    {
+      "intent": "OneshotRestrictionIntent",
+      "slots": [
+        {
+          "name": "Restriction",
+          "type": "LIST_OF_RESTRICTIONS"
+        }
+      ]
+    },
+    {
+      "intent": "OneshotRemoveRestrictionIntent",
+      "slots": [
+        {
+          "name": "Restriction",
+          "type": "LIST_OF_RESTRICTIONS"
+        }
+      ]
+    },
+    {
+      "intent": "DialogMenuIntent",
+      "slots": [
+        {
+          "name": "Cafe",
+          "type": "LIST_OF_CAFES"
+        },
+        {
+          "name": "Date",
+          "type": "AMAZON.DATE"
+        }
+      ]
+    },
+    {
+      "intent": "OneshotComplimentIntent",
+      "slots": [
+        {
+          "name": "Compliment",
+          "type": "LIST_OF_COMPLIMENTS"
+        }
+      ]
+    },
+    {
+      "intent": "SupportedMenusIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    }
+  ]
+}
